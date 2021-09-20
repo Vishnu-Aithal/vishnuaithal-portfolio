@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+:root {
+    --primary: #222831;
+    --secondary: #00ADB5;
+    --text: #393E46;
+    --off-white: #EEEEEE;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--secondary);
+}
+
+.web-dev {
+    color: var(--primary);
+}
+
+.off-white {
+    background-color: var(--off-white);
+}
+
+.links {
+    text-decoration: none;
+    color: var(--secondary);
+
+}
+
+nav {
+    background-color: var(--primary);
+    margin: 0 2rem;
+    border-bottom-left-radius: 1rem;
+    color: var(--secondary);
+}
+
+.nav-heading {
+
+    margin-top: 0;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.nav-link-container {
+    text-align: right;
+    padding-bottom: 0.7rem;
+}
+
+.nav-links {
+    font-size: 1.1rem;
+    padding-right: 1.5rem;
+    color: var(--secondary);
+    padding-bottom: 1rem;
+}
+
+.header {
+    /* margin-top: 2rem;
+    margin-bottom: 5rem; */
+    margin: 2rem 2rem 5rem 2rem;
+}
+
+.header-img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    border-radius: 0.5rem;
+    padding:0.1rem;
+    margin: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.container-text {
+    margin-bottom: 2rem;
+}
+
+.container-link {
+    border: solid 0.1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.primary-link {
+
+    border-color: var(--secondary);
+
+}
+
+.secondary-link {
+
+    border-color: var(--primary);
+}
+
+footer{
+    background-color: var(--primary);
+    margin: 0 0.5rem;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    color: var(--secondary);
+}
+
+.footer-links {
+    padding: 0.5rem
+}
+
+.footer-links a {
+    padding: 1rem;
+}

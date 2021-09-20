@@ -15,13 +15,20 @@ body {
     color: var(--text);
 }
 
+ul {
+    list-style-type: none;
+}
+
 h1,
 h2,
 h3 {
     color: var(--secondary);
 }
+.container h2 {
+    color: black
+}
 
-.web-dev {
+.header span {
     color: var(--primary);
 }
 
@@ -47,7 +54,6 @@ nav {
 }
 
 .nav-heading {
-
     margin-top: 0;
     padding-left: 1rem;
     padding-top: 0.5rem;
@@ -82,7 +88,7 @@ nav {
     padding-bottom: 2rem;
 }
 
-.container-text {
+.container p {
     margin-bottom: 2rem;
 }
 
@@ -90,17 +96,20 @@ nav {
     border: solid 0.1rem;
     border-radius: 1rem;
     padding: 0.5rem;
+    margin: 1rem;
+    color: black;
 }
 
 .primary-link {
 
-    border-color: var(--secondary);
+    border-color: var(--primary);
+    background-color: var(--secondary);
 
 }
 
 .secondary-link {
 
-    border-color: var(--primary);
+    border-color: var(--secondary);
 }
 
 footer{

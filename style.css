@@ -7,6 +7,7 @@ font-family: 'Ubuntu', sans-serif; */
     --secondary: #00ADB5;
     --text: #393E46;
     --off-white: #F3F4F6;
+    --svg-secondary-filter: invert(51%) sepia(67%) saturate(2685%) hue-rotate(147deg) brightness(93%) contrast(101%);
 }
 
 body {
@@ -47,6 +48,9 @@ h3 {
     max-width: 40px;
 }
 
+.svg {
+    filter: var(--svg-secondary-filter);
+}
 nav {
     background-color: var(--primary);
     margin: 0 1rem;

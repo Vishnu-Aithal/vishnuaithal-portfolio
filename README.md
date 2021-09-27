@@ -1,4 +1,24 @@
 # Portfolio
 Welcome Viewer!
-This is my personal Portfoilio project 
-Here you can find Web dev Projects
+This is my Personal Portfoilio SIte 
+Here you can find my Web Devolpment Projects and Blog Listing Page.
+
+----
+>## Tech Stack Used:
+
+-   HTML5
+-   CSS
+
+----
+
+>### Contents:
+
+1.  About Me
+2.  Known Technologies
+3.  Web Dev Projects
+4.  Projects Listing Page
+4.  Blog Listing Page
+5.  Contact Me Links
+6.  Dummy Blog Reading Page
+
+-----

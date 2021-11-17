@@ -81,6 +81,10 @@ nav {
     padding-bottom: 1rem;
 }
 
+.nav-links:hover{
+    font-weight: bolder;
+}
+
 .container-center {
     margin:auto
 }
@@ -120,10 +124,17 @@ nav {
     background-color: var(--secondary);
 
 }
+.primary-link:hover{
+    border-color: var(--secondary);
+}
 
 .secondary-link {
 
     border-color: var(--secondary);
+}
+
+.secondary-link:hover {
+    background-color: var(--secondary);
 }
 
 footer{

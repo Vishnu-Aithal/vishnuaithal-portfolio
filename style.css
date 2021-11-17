@@ -79,10 +79,12 @@ nav {
     padding-right: 1.5rem;
     color: var(--secondary);
     padding-bottom: 1rem;
+    transition: ease 0.2s;
 }
 
 .nav-links:hover{
     font-weight: bolder;
+    transition: ease 0.2s;
 }
 
 .container-center {
@@ -122,19 +124,21 @@ nav {
 
     border-color: var(--primary);
     background-color: var(--secondary);
-
+    transition: ease 0.2s;
 }
 .primary-link:hover{
     border-color: var(--secondary);
+    transition: ease 0.2s;
 }
 
 .secondary-link {
-
     border-color: var(--secondary);
+    transition: ease 0.2s;
 }
 
 .secondary-link:hover {
     background-color: var(--secondary);
+    transition: ease 0.2s;
 }
 
 footer{
